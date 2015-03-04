@@ -1,0 +1,6 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo
+	myCreateProcessW
+

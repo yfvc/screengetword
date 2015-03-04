@@ -1,0 +1,10 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo
+	myEnumProcesses
+	myNtQuerySystemInformation
+	myEnumWindows
+	myWndEnumProc
+
+

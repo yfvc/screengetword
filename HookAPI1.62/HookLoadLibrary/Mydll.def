@@ -1,0 +1,5 @@
+EXPORTS
+	GetMyAPIInfo
+	myLoadLibraryA
+	myLoadLibraryW
+	myGetProcAddress

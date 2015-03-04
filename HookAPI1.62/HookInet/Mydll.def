@@ -1,0 +1,9 @@
+EXPORTS
+	GetMyAPIInfo
+	cInternetConnectA
+	cHttpSendRequestA
+	cInternetReadFileExA
+	cInternetWriteFile
+	cInternetReadFile
+	cInternetCloseHandle
+	cInternetQueryDataAvailable

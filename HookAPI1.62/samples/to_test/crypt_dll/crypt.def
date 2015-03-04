@@ -1,0 +1,8 @@
+LIBRARY crypt_des
+
+DESCRIPTION 'des crypt dll file, by Paladin,http://www.programsalon.com'
+
+EXPORTS
+	CryptData		@2
+	DecryptData		@3
+

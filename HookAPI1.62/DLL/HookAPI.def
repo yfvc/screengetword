@@ -1,0 +1,7 @@
+EXPORTS
+	HookOneProcess
+	UnhookOneProcess
+	HookOneProcess2
+	UnhookOneProcess2
+	HookAllProcess
+	UnhookAllProcess

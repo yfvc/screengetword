@@ -1,0 +1,19 @@
+EXPORTS
+	GetMyAPIInfo	@1
+	myCreateProcessA	@2
+	myCreateProcessW	@3
+	myaccept	@4
+	myconnect	@5
+	mysend		@6
+	myrecv		@7
+	mysendto	@8
+	myrecvfrom	@9
+	myLoadLibraryA	@10
+	myGetProcAddress	@11
+	myNetbios		@12
+	myWSHOpenSocket	@13
+	mysocket		@14
+	myWSHOpenSocket2	@15
+	myWSHNotify	@16
+	myExitProcess @17
+	mygethostbyname	@18

@@ -1,0 +1,25 @@
+1.52版更新内容：
+1。HookAPI9x.dll删除了检查PTE的汇编语句，解决了RasDialA无法Hook的问题
+2。InstHook.dll里先FreeLibrary HookAPI9x.dll再free mydll_9x.dll,解决HookAPI9x.dll中Unhook出错的问题。
+
+1.5版主要是针对win9x下的错误修改的，修改内容为：
+
+1。修正了win9x下总是出错的问题
+2。win9x下的mydll文件名称改为了mydll_9x.dll
+3。win9x下的mydll程序加了编译选项预定义WIN95，编写win9x下的mydll时请注意
+
+1.6版本更新内容：
+1。修改了win9x下TextOutA,TextOutW等函数的截获问题
+
+[2003.04.12]
+添加Hook/Unhook一个函数
+添加Hook/Unhook一个Process
+
+[2003.04.16]
+在winxp和win9x下测试hooksocket成功，版本升级为1.6c
+
+[2003.04.19]
+修改了CHookAPI::UnhookOneAPI()里的针对多次hook的api的修改，只unhook一次
+
+[2003.04.22]
+修改了exe文件界面为英文,版本1.6d2

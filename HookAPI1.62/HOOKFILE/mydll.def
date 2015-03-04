@@ -1,0 +1,14 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo	@1
+	myCreateFileA	@2
+	myCreateFileW	@3
+	myDeleteFileA	@4
+	myDeleteFileW	@5
+	myReadFile
+	myReadFileEx
+	myWriteFile
+	myWriteFileEx
+	myCreateProcessW
+	myCreateProcessA

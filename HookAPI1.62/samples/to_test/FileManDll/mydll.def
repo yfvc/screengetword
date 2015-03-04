@@ -1,0 +1,32 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo
+	myCreateFileA
+	myCreateFileW
+	myReadFile
+	myReadFileEx
+	myWriteFile
+	myWriteFileEx
+	myMoveFileA
+	myMoveFileW
+	myMoveFileExA
+	myMoveFileExW
+	myDeleteFileA
+	myDeleteFileW
+	myCopyFileA
+	myCopyFileW
+	myFindFirstFileA
+	myFindFirstFileW
+	myFindNextFileW
+	mySetCurrentDirectoryA
+	mySetCurrentDirectoryW
+	myCreateDirectoryA
+	myCreateDirectoryW
+	myCreateDirectoryExA
+	myCreateDirectoryExW
+	myCreateProcessW
+	myCreateProcessA
+	myGetFileAttributesW
+	myGetFileAttributesA
+	myFindFirstFileExW

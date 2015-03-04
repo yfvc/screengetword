@@ -1,0 +1,5 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo	@1
+	myExitWindowsEx	@2

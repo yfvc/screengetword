@@ -1,0 +1,3 @@
+HookGame:游戏外挂例子
+CheckTrojanHorse：检查木马的例子
+ExeCryptDll, NetCryptDll：此dll目前没有开发计划

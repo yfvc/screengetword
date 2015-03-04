@@ -1,0 +1,10 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo		@1
+	myRegOpenKeyA		@2
+	myRegOpenKeyW		@3
+	myRegQueryValueA		@4
+	myRegQueryValueW		@5
+	myRegQueryValueExA		@6
+	myRegQueryValueExW		@7

@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# GTalkabout admin directories
+.gta/
+
+# Subversion admin directories
+.svn/

@@ -1,0 +1,16 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo
+	mySendMessageA
+	mySendMessageW
+	myPostMessageA
+	myPostMessageW
+	myCallWindowProcA
+	myCallWindowProcW
+	myDispatchMessageA
+	myDispatchMessageW
+	mySendDlgItemMessageA
+	mySendDlgItemMessageW
+
+

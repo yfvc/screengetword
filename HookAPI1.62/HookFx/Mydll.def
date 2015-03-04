@@ -1,0 +1,6 @@
+EXPORTS
+	GetMyAPIInfo
+	myBitBlt
+	myLoadBitmapA
+	myLoadBitmapW
+	myStretchDIBits

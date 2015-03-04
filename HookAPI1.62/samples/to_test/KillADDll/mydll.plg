@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mydll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP6371.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MYDLL_EXPORTS" /D "WIN95" /FR"Release/" /Fp"Release/mydll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program\HookAPI\HookAPI1.52_patch20030301\KillADDll\Filter.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6371.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP6372.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib netapi32.lib ws2_32.lib advapi32.lib /nologo /dll /incremental:no /pdb:"Release/mydll_9X.pdb" /machine:I386 /def:".\mydll.def" /out:"..\mydll_9X.dll" /implib:"Release/mydll_9X.lib" 
+.\Release\Filter.obj
+.\Release\mydll.obj
+.\Release\StdAfx.obj
+.\Release\util.obj
+.\Release\mydll.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP6372.TMP"
+<h3>Output Window</h3>
+Compiling...
+Filter.cpp
+D:\Program\HookAPI\HookAPI1.52_patch20030301\KillADDll\Filter.cpp(34) : warning C4101: 'line' : unreferenced local variable
+D:\Program\HookAPI\HookAPI1.52_patch20030301\KillADDll\Filter.cpp(35) : warning C4101: 'action' : unreferenced local variable
+D:\Program\HookAPI\HookAPI1.52_patch20030301\KillADDll\Filter.cpp(35) : warning C4101: 'app' : unreferenced local variable
+D:\Program\HookAPI\HookAPI1.52_patch20030301\KillADDll\Filter.cpp(36) : warning C4101: 'i' : unreferenced local variable
+D:\Program\HookAPI\HookAPI1.52_patch20030301\KillADDll\Filter.cpp(36) : warning C4101: 'j' : unreferenced local variable
+Linking...
+   Creating library Release/mydll_9X.lib and object Release/mydll_9X.exp
+LINK : warning LNK4092: shared section ".text" contains relocations; image may not run correctly
+LINK : warning LNK4092: shared section "_INIT" contains relocations; image may not run correctly
+LINK : warning LNK4092: shared section ".rdata" contains relocations; image may not run correctly
+LINK : warning LNK4092: shared section ".data" contains relocations; image may not run correctly
+
+
+
+<h3>Results</h3>
+mydll_9X.dll - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,68 @@
+mydll.dll:G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:FilterInit:ini_file=G:\HookAPI1.6d2\HookAPI1.6d2\filter.ini
+mydll.dll:G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:buffer:recv,*,*,*,window.open, bResult:1
+mydll.dll:G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:buffer:dns,*,www.google.com, bResult:1
+mydll.dll:G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:dns name:*
+mydll.dll:G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:buffer:dns,*,www.sina.com.cn, bResult:1
+mydll.dll:G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:dns name:*
+mydll.dll:G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:m_nFilterInfoCount =2
+\??\E:\WINNT\system32\winlogon.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+\??\E:\WINNT\system32\winlogon.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\system32\services.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\system32\services.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\system32\svchost.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\system32\svchost.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\system32\spoolsv.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\system32\spoolsv.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\msdtc.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\msdtc.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\svchost.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\svchost.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\llssrv.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\llssrv.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\WINDOW~1\Server\nspmon.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\WINDOW~1\Server\nspmon.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\WINDOW~1\Server\nscm.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\WINDOW~1\Server\nscm.exe:Init()::m_hMyDll ==NULL
+E:\PROGRA~1\EFFICI~1\ENTERN~1\app\pppoeservice.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\PROGRA~1\EFFICI~1\ENTERN~1\app\pppoeservice.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\system32\regsvc.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\system32\regsvc.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\system32\MSTask.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\system32\MSTask.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\snmp.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\snmp.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\WBEM\WinMgmt.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\WBEM\WinMgmt.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\system32\svchost.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\system32\svchost.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\inetsrv\inetinfo.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\inetsrv\inetinfo.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\WINDOW~1\Server\nspm.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\WINDOW~1\Server\nspm.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\WINDOW~1\Server\nsum.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\WINDOW~1\Server\nsum.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\system32\Dfssvc.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\system32\Dfssvc.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\Explorer.EXE:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\Explorer.EXE:Init()::m_hMyDll ==NULL
+E:\WINNT\SOUNDMAN.EXE:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\SOUNDMAN.EXE:Init()::m_hMyDll ==NULL
+E:\Program Files\WinZip\WZQKPICK.EXE:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\Program Files\WinZip\WZQKPICK.EXE:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\svchost.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\svchost.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\wuauclt.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\wuauclt.exe:Init()::m_hMyDll ==NULL
+E:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin\msdev.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin\msdev.exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\conime.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\conime.exe:Init()::m_hMyDll ==NULL
+E:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin\MSDEV.EXE:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin\MSDEV.EXE:Init()::m_hMyDll ==NULL
+E:\PROGRA~1\EFFICI~1\ENTERN~1\app\EnterNetFolder.Exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\PROGRA~1\EFFICI~1\ENTERN~1\app\EnterNetFolder.Exe:Init()::m_hMyDll ==NULL
+E:\WINNT\System32\mdm.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\WINNT\System32\mdm.exe:Init()::m_hMyDll ==NULL
+E:\PROGRA~1\EFFICI~1\ENTERN~1\app\EnterNet.exe:LoadMyDll G:\HookAPI1.6d2\HookAPI1.6d2\mydll.dll failed!
+E:\PROGRA~1\EFFICI~1\ENTERN~1\app\EnterNet.exe:Init()::m_hMyDll ==NULL
+G:\HookAPI1.6d2\HookAPI1.6d2\HookAPI.exe:EjectLib(), not found lib:HookAPINT.dll

@@ -1,0 +1,19 @@
+LIBRARY mydll
+
+EXPORTS
+	GetMyAPIInfo
+	mySHBrowseForFolderA
+	mySHBrowseForFolderW
+	mySHGetDataFromIDListA
+	mySHGetDataFromIDListW
+	mySHGetDesktopFolder
+	mySHGetSpecialFolderLocation
+	mySHGetPathFromIDListA
+	mySHGetPathFromIDListW
+	mySHGetFileInfoA
+	mySHGetFileInfoW
+	mySHGetFolderPathA
+	mySHGetFolderPathW
+	mySHGetFolderLocation
+	myPathFileExistsW
+	mySheChangeDirW

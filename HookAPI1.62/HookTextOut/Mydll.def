@@ -1,0 +1,6 @@
+EXPORTS
+	GetMyAPIInfo
+	myTextOutA
+	myTextOutW
+	myExtTextOutA
+	myExtTextOutW

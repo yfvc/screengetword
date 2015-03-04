@@ -1,0 +1,10 @@
+LIBRARY mydll
+;	MyGetProcAddress	@2
+;	MyLoadLibraryA		@3
+;	MyLoadLibraryW		@4
+
+EXPORTS
+	GetMyAPIInfo		@1
+	MySHFileOperation   @2
+	MySHFileOperationA	@3
+	MySHFileOperationW	@4

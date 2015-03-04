@@ -1,0 +1,17 @@
+------ Chinese ---------------
+1.52版2003.01.23更新内容：
+1。HookAPI9x.dll: 解决了RasDialA无法Hook的问题
+2。InstHook.dll: 解决HookAPI9x.dll中Unhook出错的问题。
+
+------ English ---------------
+Bug fixed in v1.52 about win9x, day 2003.01.23
+1: changed in HookAPI9x.dll: fix bug that can not hook some api functions e.g. RasDialA
+2: changed in InstHook.dll: fix bug that there is a memory exception when unhook some api
+
+-----------------------------
+1.5版主要是针对win9x下的错误修改的，修改内容为：
+
+1。修正了win9x下总是出错的问题
+2。win9x下的mydll文件名称改为了mydll_9x.dll
+3。win9x下的mydll程序加了编译选项预定义WIN95，编写win9x下的mydll时请注意
+

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mydll", "mydll.vcproj", "{FABAE2F4-7F04-4ABC-9FFA-7D619EFB38AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FABAE2F4-7F04-4ABC-9FFA-7D619EFB38AB}.Debug.ActiveCfg = Debug|Win32
+		{FABAE2F4-7F04-4ABC-9FFA-7D619EFB38AB}.Debug.Build.0 = Debug|Win32
+		{FABAE2F4-7F04-4ABC-9FFA-7D619EFB38AB}.Release.ActiveCfg = Release|Win32
+		{FABAE2F4-7F04-4ABC-9FFA-7D619EFB38AB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+EXPORTS
+	GetMyAPIInfo
+	myaccept
+	myconnect
+	mysend
+	myrecv
+	mysendto
+	myrecvfrom
+	mysocket
+	mygethostbyname
